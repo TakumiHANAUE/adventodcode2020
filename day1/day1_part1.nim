@@ -9,6 +9,8 @@ inputFile = open("./day1input.txt", fmRead)
 
 for line in inputFile.lines:
     report.add(line.parseInt())
+close(inputFile)
+
 sort(report, Ascending)
 
 for i in 0..report.len:
